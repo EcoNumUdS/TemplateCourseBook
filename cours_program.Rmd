@@ -1,0 +1,189 @@
+---
+documentclass : article
+font : 12pt
+lang: fr
+pappersize : a4paper
+title : Introduction à la programmation scientifique
+geometry: margin=1in
+linestretch: 1
+date: "`r format(Sys.time(), '%d %B %Y')`"
+header-includes:
+    - \usepackage{times}
+    - \usepackage{fancyhdr}
+    - \pagestyle{fancy}
+    - \fancyhead[CO,CE]{}
+    - \fancyfoot[CO,CE]{Introduction à la programmation scientifique}
+    - \fancyfoot[LE,RO]{\thepage}
+output:
+  pdf_document:
+      highlight: tango
+      toc: yes
+      toc_depth: 3
+      fig_caption: yes
+      keep_tex: yes
+      latex_engine: pdflatex
+      number_section: yes  
+---
+
+
+
+\newpage
+
+#  Introduction à la programmation scientifique
+
+Programmer c'est trop cool !
+
+
+
+
+
+\newpage
+
+# L'interface R
+
+Ici les ressources ?
+
+## Historique
+
+## Types d'objets
+
+## Lire des fichiers
+
+## Écrire des fichiers
+
+## Faire des scripts
+
+```{r, echo=FALSE}
+knitr::read_chunk("./scripts/script1.R")
+```
+
+```{r first}
+<<script1A>>
+print(vec1)
+```
+
+deuxième bout de code
+
+```{r second}
+<<script1B>>
+```
+
+
+
+## Charger des librairies
+
+
+
+
+
+
+\newpage
+
+#  Manipulation des données
+
+## indexation des objets
+
+```{r, echo=FALSE}
+knitr::read_chunk("./scripts/script2.R")
+```
+
+```{r dataframe1}
+<<script2A>>
+```
+
+
+
+## split
+
+## merge
+
+## tableau croisé
+
+
+
+
+
+
+
+\newpage
+
+# Outils mathématiques de base
+
+## opérations de base
+
+## sommes, produits
+
+```{r addition}
+# une addition avec R.
+2+3
+# une somme sur un vecteur
+sum(c(2,5,1,9))
+```
+
+## produit matriciel
+
+## analyse de vecteurs propres
+
+
+
+
+
+
+\newpage
+
+# Fonctions
+
+## environnemnts
+
+
+
+
+
+
+
+
+
+\newpage
+
+# Récursions
+
+## For loop
+
+## While
+
+## apply (et autres)
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+# Algorithmes
+
+## Énoncés conditionnels
+
+## Planifier une séquence d'opérations
+
+
+
+
+\newpage
+
+# Processus stochastiques
+
+
+
+
+
+
+\newpage
+
+# Optimisation des scripts
