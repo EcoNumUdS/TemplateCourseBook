@@ -1,4 +1,4 @@
-### Cours d'introduction à la programmation scientifique (BIO109)
+## Cours d'introduction à la programmation scientifique (BIO109)
 
 **Par Kevin Cazelles, Steve Vissault & Dominique Gravel**
 
