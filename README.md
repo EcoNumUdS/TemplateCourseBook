@@ -11,14 +11,8 @@ Elles sont produites à l'aide du package R ```bookdown``` (https://bookdown.org
 
 #### HTML: En Développement
 
-1. Installer les dépendances
-
-  make dep
-
-2. Lancer le serveur
-
-  make html_server
-
+1. Installer les dépendances: ```make dep```
+2. Lancer le serveur: ```make html_server```
 3. Ouvrir son navigateur internet à l'adresse [http://127.0.0.1:4321/](http://127.0.0.1:4321/)
 
 #### LICENCE
