@@ -1,0 +1,25 @@
+# Algorithmique I
+
+## Les itérateurs
+- for loop
+- break
+- while
+- apply, rapply, lapply
+- impression à l'écran (cat, print)
+- manipuler les compteurs
+- conflits entre compteurs
+EXERCICE: modèle de croissance logistique
+
+## Les opérateurs logiques
+
+- Principe: coder un arbre de décision
+- opérateurs de base: ==, ­<=, >=, !=, |, &
+- if, else
+- opération sur des vecteurs
+- opérateurs avancés: %in%
+- which
+- match
+
+###Exercice
+
+**Description** fonction qui trie des lettres automatiquement

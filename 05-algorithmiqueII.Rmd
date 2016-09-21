@@ -1,0 +1,21 @@
+# Algorithmique II
+
+## Simulations stochastiques
+- principales distributions de nombres aléatoires (runif, rnorm, rexp, rgamma)
+- principe de prise de décision: binomial
+- principe de prise de décision: multinomial
+
+### Exercice
+
+**Description:** conduite aléatoire dans un cartier résidentiel (tourne à gauche ou droite avec une pièce de monnaie)
+
+## Optimisation des scripts
+
+- Calculer le temps écouler pour réaliser une fonction
+- Les pertes de temps les plus communes
+- Façons de gagner de l'efficacité
+- Calcul parallèle
+
+### Exercice
+
+**Description:** optimisation du script de tri des lettres

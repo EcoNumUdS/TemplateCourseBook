@@ -1,0 +1,59 @@
+# Le language R
+
+## Interagir avec R (60 min)
+
+- Historique de R
+- Pourquoi R
+- Ouvrir l'interface visuel (console)
+- Environnement de développement: RStudio, SublimeText, Textwrangler, Emac, Atom
+- Répertoire de travail (~, ., chemin de fichier, getwd(), setwd())
+- Type de variables
+- Types d'objet
+- Lire des fichiers
+	- formats utilisés et à éviter
+	- EX: passer d'un fichier Excel à R
+	- erreurs courantes
+		- noms de fichier et le répertoire de travail
+		- type de séparateur
+		- nom des colonnes
+		- les entrées vides
+- Écrire des fichiers
+	- formats
+	- EX: passer d'un objet R à Excel
+- Visualiser les objets
+	- ls, str, head, tail, summary
+- Le script
+	- commenter
+	- découper
+	- la fonction 'source'
+- Démystifier la fonction
+- Aide
+- Charger une librairie
+- notion de contrôle de version: GIT
+
+EXERCICE : modifier un fichier excel, le lire, le modifier et l'ouvrir à nouveau sur Excel
+
+## Manipulation des objets (90 min)
+
+- générer des objets (seq, c, matrix, vector, rep, expand.grid)
+- indexation
+	- vecteur
+	- matrice
+	- liste
+- manipulations sur data frame
+- noms de colonnes et de rangées
+- conversion entre types d'objets
+- combiner des objets
+- split
+- merge
+- subset
+- sort
+- order
+- rank
+- unique
+- indexer des ensembles
+- tableau croisé
+
+## Exercice
+
+**Description:** Compiler les données de Sutton, un tableau de nombre de tiges et de taille moyenne par espèce, au sein de trois blocs

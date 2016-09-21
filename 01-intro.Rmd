@@ -1,0 +1,56 @@
+# Introduction {#intro}
+
+## Introduction à la programmation scientifique (60 min)
+
+- histoire des langages de programmation
+- progression de la puissance de calcul
+- utilisation en science
+	- tâches répétitives et tâches complexes
+	- visualisation des données
+	- exploration
+	- analyse statistique
+	- nettoyage des données
+	- simulations stochastiques
+- avantages de la programmation scientifique
+	- gain de temps: tâches répétitives
+	- limiter les erreurs
+	- formaliser les opérations
+	- archiver et reproduire (traçabilité)
+	- tâches intensives (e.g. en génomique)
+- inconvénients:
+	- courbe d'apprentissage
+	- ce qu'un ordinateur ne peut pas faire
+- types de langages
+	compilé
+	interprété
+
+## Pseudo-code (60 min)
+- exercice: ordonner les lettres  
+- concepts de base en programmation
+	- logique & décisions
+	- boucles
+	- fonctions
+- règles
+- représentation schématique du pseudo-code
+- représentation par liste
+- exercice: schématiser le pseudo-code pour le tri des lettres
+
+## Bonnes pratiques (60 min)
+
+- commenter / communication
+- être propre / gestion de la mémoire et des objets
+- contrôle de version
+- découper le script
+- coder en fonctions
+- optimisation des opérations
+- gestion des nombres aléatoires
+- reproductibilité
+- programmer défensivement
+- entête des scripts
+- tests  
+- bien nommer ses variables (court, explicite, éviter les conflits, noms de variables utilisées par l'environnement R)
+- ne pas écraser ses variables
+
+## Exercice
+
+À déterminer.

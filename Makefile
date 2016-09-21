@@ -1,10 +1,16 @@
-RMD=./cours_program.Rmd
-PDF=./document/cours_program.pdf
-# REF=library.bib
-# CSL=styles/theoretical-ecology.csl
-# PFLAGS=  --latex-engine=pdflatex #--bibliography=$(REF) --csl=$(CSL)
+# Makefile to build 'Introduction à la programmation' website
+# Septembre 2015
 
-ALL: $(PDF)
+clean:
+	rm -rf _book
+	rm -rf _bookdown_files
+	rm -f intro_prg_sci.Rmd
 
-$(PDF): $(RMD)
-	Rscript get_doc.R `pwd`
+dep:
+	Rscript -e 'install.packages(c("servr","devtools"),repos="http://cran.us.r-project.org");devtools::install_github("rstudio/bookdown")'
+
+html_server: *.Rmd
+	Rscript -e "bookdown::serve_book(dir = './', output_dir = '_book', preview = TRUE,in_session = TRUE)"
+
+pdf:
+	echo "Pas encore configuré"

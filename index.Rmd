@@ -1,0 +1,72 @@
+---
+title: "Introduction à la programmation scientifique"
+author: "Par Dominique Gravel, Steve Vissault & Kevin Cazelles"
+date: "Hiver 2017"
+output: bookdown::gitbook
+documentclass: book
+bibliography:
+biblio-style: apalike
+link-citations: yes
+github-repo: TheoreticalEcosystemEcology/introProgSci
+description: "Notes de cours - Introduction à la programmation scientifique (BIO109)"
+---
+
+# Syllabus {-}
+
+## Description général {-}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+## Objectifs spécifiques {-}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+## Pré-requis {-}
+
+- Lorem ipsum dolor sit amet
+- Ut enim ad minim
+- Duis aute irure dolor
+
+## Approche pédagogique {-}
+
+## Matériel recommandé {-}
+
+Logiciel R
+Éditeurs de texte:
+Context, Textpad, Textedit, gedit
+
+**Environnements de développement (IDEs):**
+
+- RStudio
+- SublimeText
+- Textwrangler
+- aquamacs
+- eclipse
+- RCommander
+- TinnR
+- Atom
+- vim
+
+## Lectures recommandées {-}
+
+- CSBQ
+- Software Carpentry
+- Document Emmanuel Paradis
+- Document Tim Poisot
+- .... bouquins sur la programmation sur R
+- lien vers le site du labo
+
+## Calendrier {-}
+
+- Date des cours
+- Date des remises
+- Date de l'évaluation finale
+
+## Coordonnées  {-}
+
+```{r coordonnées, echo=FALSE}
+coords <- data.frame(v1=c('**Bureau**','**Téléphone**', '**Courriel**'),v2=c('D8-###','(819) 821-8000 Poste 66589','dominique.gravel@usherbrooke.ca'),v3=c('D8-0012','(819) 821-7000 Poste 62591', 'steve.vissault@usherbrooke.ca'))
+names(coords) <- c("","Dominique Gravel", "Steve Vissault")
+
+knitr::kable(coords, booktabs = TRUE)
+```

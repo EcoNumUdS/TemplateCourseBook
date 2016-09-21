@@ -1,0 +1,42 @@
+# Les fonctions et opérateurs
+
+## Opérations mathématiques (30 min)
+
+- opérations de base (addition, multiplication, division)
+- somme
+- produit
+- modulo
+- rowSums, colSums
+- log, exponentiel
+- produit de matrices et vecteurs
+	- produit scalaire d'objets de tailles différentes
+	- produit matriciel
+- générer des nombres aléatoires
+
+## Fonctions
+
+- généralités
+	- répétition
+	- capacité de généraliser une opération
+	- mettre en forme une série d'opérations (pseudo-code)
+	- formaliser l'entrée et la sortie d'une opération
+- appel d'une fonction
+- déclaration d'une fonction
+	- synthaxe de base
+	- arguments facultatifs
+	- arguments par défaut
+- retour d'arguments
+- portée local vs global
+	- enrichi: allocation de mémoire dans d'autres langages  
+
+## Exercice
+
+**Description:** programmer une fonction qui permet de calculer des statistiques descriptives pour chaque quadrat du jeux de données
+
+- min et max
+- taille moyenne
+- variance de la taille
+- nombre de tiges
+- nombre d'espèces
+- espèce la plus abondante
+- espèce la plus rare

@@ -1,0 +1,17 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">Programmation scientifique (BIO109)</a></li>
+      after: |
+        <li><a href="https://github.com/TheoreticalEcosystemEcology/introProgSci" target="blank">Code source</a></li>
+        <li><a href="https://ielab.recherche.usherbrooke.ca" target="blank">IELab</a><li>
+    edit:
+      link: https://github.com/TheoreticalEcosystemEcology/introProgSci/edit/master/%s
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+bookdown::epub_book: default
