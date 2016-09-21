@@ -1,5 +1,7 @@
 ## Cours d'introduction à la programmation scientifique (BIO109)
 
+[![Build Status](https://travis-ci.org/TheoreticalEcosystemEcology/introProgSci.svg?branch=master)](https://travis-ci.org/TheoreticalEcosystemEcology/introProgSci)
+
 **Par Kevin Cazelles, Steve Vissault & Dominique Gravel**
 
 #### Description du cours:
