@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Introduction à la programmation scientifique</title>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta name="description" content="Notes de cours - Introduction à la programmation scientifique (BIO109)">
+  <meta name="generator" content="bookdown 0.1.9 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Introduction à la programmation scientifique" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Notes de cours - Introduction à la programmation scientifique (BIO109)" />
+  <meta name="github-repo" content="TheoreticalEcosystemEcology/introProgSci" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Introduction à la programmation scientifique" />
+  
+  <meta name="twitter:description" content="Notes de cours - Introduction à la programmation scientifique (BIO109)" />
+  
+
+<meta name="author" content="Par Dominique Gravel, Steve Vissault &amp; Kevin Cazelles">
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="les-fonctions-et-operateurs.html">
+<link rel="next" href="algorithmique-ii.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Programmation scientifique (BIO109)</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Syllabus</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#description-general"><i class="fa fa-check"></i>Description général</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#objectifs-specifiques"><i class="fa fa-check"></i>Objectifs spécifiques</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#pre-requis"><i class="fa fa-check"></i>Pré-requis</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#approche-pedagogique"><i class="fa fa-check"></i>Approche pédagogique</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#materiel-recommande"><i class="fa fa-check"></i>Matériel recommandé</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#lectures-recommandees"><i class="fa fa-check"></i>Lectures recommandées</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#calendrier"><i class="fa fa-check"></i>Calendrier</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#coordonnees"><i class="fa fa-check"></i>Coordonnées</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#introduction-a-la-programmation-scientifique-60-min"><i class="fa fa-check"></i><b>1.1</b> Introduction à la programmation scientifique (60 min)</a></li>
+<li class="chapter" data-level="1.2" data-path="intro.html"><a href="intro.html#pseudo-code-60-min"><i class="fa fa-check"></i><b>1.2</b> Pseudo-code (60 min)</a></li>
+<li class="chapter" data-level="1.3" data-path="intro.html"><a href="intro.html#bonnes-pratiques-60-min"><i class="fa fa-check"></i><b>1.3</b> Bonnes pratiques (60 min)</a></li>
+<li class="chapter" data-level="1.4" data-path="intro.html"><a href="intro.html#exercice"><i class="fa fa-check"></i><b>1.4</b> Exercice</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="le-language-r.html"><a href="le-language-r.html"><i class="fa fa-check"></i><b>2</b> Le language R</a><ul>
+<li class="chapter" data-level="2.1" data-path="le-language-r.html"><a href="le-language-r.html#interagir-avec-r-60-min"><i class="fa fa-check"></i><b>2.1</b> Interagir avec R (60 min)</a></li>
+<li class="chapter" data-level="2.2" data-path="le-language-r.html"><a href="le-language-r.html#manipulation-des-objets-90-min"><i class="fa fa-check"></i><b>2.2</b> Manipulation des objets (90 min)</a></li>
+<li class="chapter" data-level="2.3" data-path="le-language-r.html"><a href="le-language-r.html#exercice-1"><i class="fa fa-check"></i><b>2.3</b> Exercice</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="les-fonctions-et-operateurs.html"><a href="les-fonctions-et-operateurs.html"><i class="fa fa-check"></i><b>3</b> Les fonctions et opérateurs</a><ul>
+<li class="chapter" data-level="3.1" data-path="les-fonctions-et-operateurs.html"><a href="les-fonctions-et-operateurs.html#operations-mathematiques-30-min"><i class="fa fa-check"></i><b>3.1</b> Opérations mathématiques (30 min)</a></li>
+<li class="chapter" data-level="3.2" data-path="les-fonctions-et-operateurs.html"><a href="les-fonctions-et-operateurs.html#fonctions"><i class="fa fa-check"></i><b>3.2</b> Fonctions</a></li>
+<li class="chapter" data-level="3.3" data-path="les-fonctions-et-operateurs.html"><a href="les-fonctions-et-operateurs.html#exercice-2"><i class="fa fa-check"></i><b>3.3</b> Exercice</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="algorithmique-i.html"><a href="algorithmique-i.html"><i class="fa fa-check"></i><b>4</b> Algorithmique I</a><ul>
+<li class="chapter" data-level="4.1" data-path="algorithmique-i.html"><a href="algorithmique-i.html#les-iterateurs"><i class="fa fa-check"></i><b>4.1</b> Les itérateurs</a></li>
+<li class="chapter" data-level="4.2" data-path="algorithmique-i.html"><a href="algorithmique-i.html#les-operateurs-logiques"><i class="fa fa-check"></i><b>4.2</b> Les opérateurs logiques</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="algorithmique-i.html"><a href="algorithmique-i.html#exercice-3"><i class="fa fa-check"></i><b>4.2.1</b> Exercice</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="algorithmique-ii.html"><a href="algorithmique-ii.html"><i class="fa fa-check"></i><b>5</b> Algorithmique II</a><ul>
+<li class="chapter" data-level="5.1" data-path="algorithmique-ii.html"><a href="algorithmique-ii.html#simulations-stochastiques"><i class="fa fa-check"></i><b>5.1</b> Simulations stochastiques</a><ul>
+<li class="chapter" data-level="5.1.1" data-path="algorithmique-ii.html"><a href="algorithmique-ii.html#exercice-4"><i class="fa fa-check"></i><b>5.1.1</b> Exercice</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="algorithmique-ii.html"><a href="algorithmique-ii.html#optimisation-des-scripts"><i class="fa fa-check"></i><b>5.2</b> Optimisation des scripts</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="algorithmique-ii.html"><a href="algorithmique-ii.html#exercice-5"><i class="fa fa-check"></i><b>5.2.1</b> Exercice</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/TheoreticalEcosystemEcology/introProgSci" target="blank">Code source</a></li>
+<li><a href="https://ielab.recherche.usherbrooke.ca" target="blank">IELab</a><li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction à la programmation scientifique</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="algorithmique-i" class="section level1">
+<h1><span class="header-section-number">Cours 4</span> Algorithmique I</h1>
+<div id="les-iterateurs" class="section level2">
+<h2><span class="header-section-number">4.1</span> Les itérateurs</h2>
+<ul>
+<li>for loop</li>
+<li>break</li>
+<li>while</li>
+<li>apply, rapply, lapply</li>
+<li>impression à l’écran (cat, print)</li>
+<li>manipuler les compteurs</li>
+<li>conflits entre compteurs EXERCICE: modèle de croissance logistique</li>
+</ul>
+</div>
+<div id="les-operateurs-logiques" class="section level2">
+<h2><span class="header-section-number">4.2</span> Les opérateurs logiques</h2>
+<ul>
+<li>Principe: coder un arbre de décision</li>
+<li>opérateurs de base: ==, ­&lt;=, &gt;=, !=, |, &amp;</li>
+<li>if, else</li>
+<li>opération sur des vecteurs</li>
+<li>opérateurs avancés: %in%</li>
+<li>which</li>
+<li>match</li>
+</ul>
+<div id="exercice-3" class="section level3">
+<h3><span class="header-section-number">4.2.1</span> Exercice</h3>
+<p><strong>Description</strong> fonction qui trie des lettres automatiquement</p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="les-fonctions-et-operateurs.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="algorithmique-ii.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
+
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/TheoreticalEcosystemEcology/introProgSci/edit/master/04-algorithmiqueI.Rmd",
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
