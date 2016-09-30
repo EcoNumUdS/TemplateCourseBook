@@ -1,5 +1,9 @@
 # Introduction {#intro}
 
+
+
+<!-- KC dans cette partie on ne met pas de code tel quel  -->
+
 ## Introduction à la programmation scientifique (60 min)
 
 - histoire des langages de programmation
@@ -23,6 +27,8 @@
 - types de langages
 	compilé
 	interprété
+
+
 
 ## Pseudo-code (60 min)
 - exercice: ordonner les lettres  

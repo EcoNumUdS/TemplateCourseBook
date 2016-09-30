@@ -19,4 +19,4 @@ Elles sont produites à l'aide du package R ```bookdown``` (https://bookdown.org
 
 #### LICENCE
 
-*Le matériel présenté ici est sous-licence XXXX*
+*Le matériel présenté ici est sous licence XXXX*

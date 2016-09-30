@@ -1,12 +1,31 @@
 # Le language R
 
+<!-- KC: le script à charger -->
+```{r, echo=FALSE}
+knitr::read_chunk("./scripts/langage.R")
+```
+
+
+
 ## Interagir avec R (60 min)
 
-- Historique de R
-- Pourquoi R
+
+### Quelques repères historiques
+
+KC: je pense qu'en faisant le bilan actuel ça donnera le pourquoi de R.
+(Historique de R; Pourquoi R)
+
+
 - Ouvrir l'interface visuel (console)
 - Environnement de développement: RStudio, SublimeText, Textwrangler, Emac, Atom
 - Répertoire de travail (~, ., chemin de fichier, getwd(), setwd())
+
+```{r wkd, eval=FALSE}
+<<lang01>>
+```
+
+
+
 - Type de variables
 - Types d'objet
 - Lire des fichiers

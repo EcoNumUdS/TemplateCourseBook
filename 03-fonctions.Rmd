@@ -1,5 +1,8 @@
 # Les fonctions et opérateurs
 
+
+KC: Faudrait en données une définitopn pour commencer
+
 ## Opérations mathématiques (30 min)
 
 - opérations de base (addition, multiplication, division)
