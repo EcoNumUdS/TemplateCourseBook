@@ -1,4 +1,4 @@
-## Template pour les notes de cours BIO500 et BIO109
+## Exemple de notes de cours avec `bookdown`
 
 [![Build Status](https://travis-ci.org/TheoreticalEcosystemEcology/introProgSci.svg?branch=master)](https://travis-ci.org/TheoreticalEcosystemEcology/introProgSci)
 
